@@ -1,0 +1,19 @@
+<HTML dir="ltr">
+<HEAD>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<TITLE>Nuevo Usuario</TITLE>
+</HEAD>
+    <body>
+        {% extends 'base.html' %}
+        {% block titulo%} Nuevo Usuario {% endblock%}
+        {% block encabezado%}
+            <h1> Registra nuevo usuario </h1>
+        {% endblock %}
+        {% block contenido %}
+            <form id='formulario' method='post' action=''>{% csrf_token %}
+                <table>{{formulario}}</table>
+                <p><input type='submit' value='Registrar' /></p>
+            </form>
+        {% endblock%}
+    </body>
+</HTML>

@@ -1,0 +1,69 @@
+div.respuesta{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    color: #000000
+}
+div.error{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: medium;
+    color: #979797
+}
+
+/*BODY{ 
+color: white; 
+font-family: Verdana, Arial, Helvetica; 
+background-color: #336699; 
+background-image: url(../imagenes/bg_center.png); 
+}*/
+
+.SaveIcon {
+    background-image: url(../imagenes/buscar2.gif);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+.AddIcon{
+    background-image: url(../images/hisSic.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;        
+}
+
+.centerBtn{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    height:20px;
+}
+p.center{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add{
+    width: 18px;
+    height: 18px;
+    background-image: url(../imagenes/insert_icon.png);
+    background-repeat: no-repeat;
+}
+
+.cita{
+    background-color:#e2e3ff;
+    font-style: italic;
+}
+fieldset { border: 2px groove; margin: 1em; padding: 1em; -moz-border-radius: 7px; -webkit-border-radius: 7px;}
+legend 	 { font-weight: bolder; font-size: larger; }
+.aut{
+    color: #ffffff
+}
